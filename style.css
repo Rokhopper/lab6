@@ -1,0 +1,170 @@
+.gradient{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.gradient1{
+    height: 100px;
+    width: 25%;
+    text-align: center;
+    padding-top: 4%;
+    background: linear-gradient(to right, #F6EFD2, #CEAD78);
+}
+
+.gradient2{
+    height: 100px;
+    width: 25%;
+    text-align: center;
+    padding-top: 4%;
+    background: radial-gradient(circle farthest-corner at 100px 50px, #FBF2EB, #352A3B);
+}
+
+.gradient3{
+    height: 100px;
+    width: 25%;
+    text-align: center;
+    padding-top: 4%;
+    background: radial-gradient(white, #FFA9A1);
+}
+
+.gradient3{
+    height: 100px;
+    width: 25%;
+    text-align: center;
+    padding-top: 4%;
+    background: radial-gradient(white, #FFA9A1);
+}
+
+.gradient4{
+    height: 100px;
+    width: 25%;
+    text-align: center;
+    padding-top: 4%;
+    background: radial-gradient(at top, #FEFFFF, #A7CECC);
+}
+
+.shadow{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.shadow1{
+    padding-top: 5%;
+    height: 125px;
+    width: 48%;
+    color: aliceblue;
+    margin-top: 10px;
+    text-align: center;
+    background: black;
+    box-shadow: 20px 10px 10px red;
+}
+
+.shadow2{
+    margin-left: 30px;
+    padding-top: 5% ;
+    height: 125px;
+    width: 50%;
+    color: aliceblue;
+    margin-top: 10px;
+    text-align: center;
+    background: black;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+
+.corner{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-align: center;
+}
+
+.corner1{
+    width: 25%;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #EEDDFF;
+    border: 6px solid #7922CC;
+    border-radius: 280px/100px;
+}
+
+.corner2{
+    width: 25%;
+    margin-left: 20px;
+    background-color: #EEDDFF;
+    border: 6px solid #7922CC;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-radius: 25px;
+}
+
+.corner3 {
+    width: 25%;
+    margin-left: 20px;
+    background-color: #FFE8DB;
+    border: 6px solid #FF5A00;
+    border-radius: 15px 100px 15px 100px;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.svg_image{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-align: center;
+}
+
+.image1{
+    text-decoration: none;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    line-height: 45px;
+    margin: 10px 20px;
+    background: white;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+    transition: .3s;
+}
+
+.image1:hover {
+    background: #2EE59D;
+    box-shadow: 0 15px 20px rgba(46, 229, 157, .4);
+    transform: translateY(-7px);
+}
+
+.image2 {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    padding: 1px 1px;
+    margin: 10px 20px;
+    box-shadow: 0 10px 10px 0 rgba(0, 40, 120, .35);
+    transition: .5s;
+}
+.image2:hover {
+    box-shadow: 0 0 0 0 rgba(0, 40, 120, 0);
+    background-position: 0 0;
+}
+
+h1 {
+    font-family: Helvetica, "Trebuchet MS", Verdana, sans-serif;
+}
+
+@font-face {
+    font-family: "Alt";
+    src: url("./assets/fonts/sunday.ttf");
+}
+
+.text2 {
+    font-family: 'Nanum Gothic', sans-serif;
+}
